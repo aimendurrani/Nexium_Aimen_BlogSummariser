@@ -1,9 +1,13 @@
-**AI Blog Summarizer + Urdu Translator**
+# **AI Blog Summarizer + Urdu Translator**
 
-**Description:**
+---
+
+# **Description:**
 This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**, **Framer Motion**, and **ShadCN UI**. The app allows users to input a blog URL, automatically scrape and extract the blog content, generate a concise AI-style summary (simulated), and translate the summary into **Urdu**. The English summary is saved in **Supabase**, and the full blog text is stored in **MongoDB**.
 
-**Key Features:**
+---
+
+# **Key Features:**
 
 * Input any public blog URL
 * Scrape and clean blog text using Cheerio
@@ -13,14 +17,18 @@ This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**
 * Smooth UI animations and transitions
 * Store data in Supabase (summary) and MongoDB (full blog)
 
-**Tech Stack:**
+---
+
+# **Tech Stack:**
 
 * Frontend: Next.js 14, Tailwind CSS, Framer Motion, ShadCN UI
 * Backend: API routes in Next.js (`/api/summarize`)
 * Storage: Supabase (PostgreSQL) and MongoDB Atlas
 * Utilities: Cheerio for scraping, fetch API for translation
 
-**Project Setup (Local):**
+---
+
+# **Project Setup (Local):**
 
 1. Clone the repository
    `git clone https://github.com/aimendurrani/Nexium_Aimen_BlogSummariser.git`
@@ -47,5 +55,5 @@ This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**
 
 ---
 
-**License:**
+# **License:**
 This project is licensed under the **MIT License**
