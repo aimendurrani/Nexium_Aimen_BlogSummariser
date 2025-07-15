@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Nexium_Aimen_BlogSummariser
+AI Blog Summarizer + Translator lets you instantly understand any blog. Just enter a URL—it reads the blog, summarizes it using AI, and translates the summary into Urdu. Save time, get key insights fast, and enjoy a smooth, user-friendly experience.
+>>>>>>> c97ed2e17aa70377e1c2758f76085022eef190eb
