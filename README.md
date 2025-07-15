@@ -1,41 +1,51 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**AI Blog Summarizer + Urdu Translator**
 
-## Getting Started
+**Description:**
+This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**, **Framer Motion**, and **ShadCN UI**. The app allows users to input a blog URL, automatically scrape and extract the blog content, generate a concise AI-style summary (simulated), and translate the summary into **Urdu**. The English summary is saved in **Supabase**, and the full blog text is stored in **MongoDB**.
 
-First, run the development server:
+**Key Features:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Input any public blog URL
+* Scrape and clean blog text using Cheerio
+* Generate a simulated summary (basic keyword logic)
+* Translate summary into Urdu using MyMemory API
+* Real-time visual status for each processing step
+* Smooth UI animations and transitions
+* Store data in Supabase (summary) and MongoDB (full blog)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Tech Stack:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Frontend: Next.js 14, Tailwind CSS, Framer Motion, ShadCN UI
+* Backend: API routes in Next.js (`/api/summarize`)
+* Storage: Supabase (PostgreSQL) and MongoDB Atlas
+* Utilities: Cheerio for scraping, fetch API for translation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Project Setup (Local):**
 
-## Learn More
+1. Clone the repository
+   `git clone https://github.com/aimendurrani/Nexium_Aimen_BlogSummariser.git`
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project folder
+   `cd Nexium_Aimen_BlogSummariser`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install dependencies
+   `npm install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Create and configure your `.env.local` file with:
 
-## Deploy on Vercel
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+   MONGODB_URI=your_mongodb_uri
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Run the development server
+   `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Nexium_Aimen_BlogSummariser
-AI Blog Summarizer + Translator lets you instantly understand any blog. Just enter a URL—it reads the blog, summarizes it using AI, and translates the summary into Urdu. Save time, get key insights fast, and enjoy a smooth, user-friendly experience.
->>>>>>> c97ed2e17aa70377e1c2758f76085022eef190eb
+6. Open in browser
+   `http://localhost:3000`
+
+---
+
+**License:**
+This project is licensed under the **MIT License**
