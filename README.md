@@ -29,7 +29,7 @@ This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**
 ---
 
 ## **Live Demo**
-🌐 [Blog Summariserl](https://nexium-aimen-blog-summariser-kheer411i-aimens-projects-ff0f0a5e.vercel.app/)
+🌐 [Blog Summariser](https://nexium-aimen-blog-summariser-kheer411i-aimens-projects-ff0f0a5e.vercel.app/)
 
 ---
 
