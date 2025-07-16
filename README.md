@@ -7,6 +7,10 @@ This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**
 
 ---
 
+## **Live Demo**
+🌐 [Blog Summariser](https://nexium-aimen-blog-summariser.vercel.app/)
+
+---
 # **Key Features:**
 
 * Input any public blog URL
@@ -25,11 +29,6 @@ This is a modern AI-powered web app built using **Next.js 14**, **Tailwind CSS**
 * Backend: API routes in Next.js (`/api/summarize`)
 * Storage: Supabase (PostgreSQL) and MongoDB Atlas
 * Utilities: Cheerio for scraping, fetch API for translation
-
----
-
-## **Live Demo**
-🌐 [Blog Summariser](https://nexium-aimen-blog-summariser-kheer411i-aimens-projects-ff0f0a5e.vercel.app/)
 
 ---
 
